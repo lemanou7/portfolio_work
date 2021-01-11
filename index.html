@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="CSS/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>Home | About Me</title>
 </head>
-<body>
-
-<video autoplay muted loop id="myVideo">
-  <source src="video/rain.mp4" type="video/mp4">
-</video>
-
-<div class="content">
-
-  <h1>Hello! My Portfolio Is Coming Soon.</h1>
-
-  <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. 
-      Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
-  <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit error blanditiis iusto expedita id tempore magni ex quis omnis laborum recusandae sunt, 
-      modi corrupti quibusdam repudiandae dicta laboriosam odio minus!
-  </p>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit error blanditiis iusto expedita id tempore magni ex quis omnis laborum recusandae sunt, 
-    modi corrupti quibusdam repudiandae dicta laboriosam odio minus!
-  </p>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit error blanditiis iusto expedita id tempore magni ex quis omnis laborum recusandae sunt, 
-    modi corrupti quibusdam repudiandae dicta laboriosam odio minus!
-  </p>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit error blanditiis iusto expedita id tempore magni ex quis omnis laborum recusandae sunt, 
-    modi corrupti quibusdam repudiandae dicta laboriosam odio minus!
-  </p>
-
-</div>
 
 
+<body class="bg">
+
+    <section class=" container p-0">
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Drissa Bagate</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+           
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="/templates/portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/templates/contact.html">Contact</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        
+      </nav>
+
+      <header>
+        <img class="img-fluid" src="/images/portfolio-1.jpg" height="450px" width="100%" alt="main banner">
+      </header>
+
+    </section>
+
+    <section class="section_2 container p-0 col-12 mt-auto">
+      <div class="row">
+        <div class="text-center  h-100 justify-content-center align-items-center"><h1>About Me</h1></div>
+      </div>
+    </section>
+
+    <section class="container  ">
+      <div class="row">
+        <div class="col-md-4 mb-2 "><img class=" d-block mx-auto img-thumbnail" src="./images/moi.jpg" alt="My Image"></div>
+
+        <div class="col-md-8">
+          <p class=" p-0">
+            My name is Drissa Bagate. I'm 40 and from Ivory coast (Cote d'Ivoire) located in west Africa.
+            I started my computer science trip learning Industrial computing. From there I got the tast of 
+            programming and stepped in Python and Django. I love web development and always trying to improve 
+            with new skill.  
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
