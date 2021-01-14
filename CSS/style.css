@@ -1,50 +1,52 @@
   *{
     box-sizing: border-box;
   }
+  html, body {
+    height: 100%;
+  }
   
-  #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-  }
 
-  .navbar-custom .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+header img{
+  height: 450px; 
+  width: 100%;
+}
+
+
+header{
+  max-width: 100%;
+}
 
 .bg{
   background: rgb(233, 229, 223);
 }
 
-  .fixed-top{
+/* This will make the navbar stay in place even page is scrowled is scrolled up and down */
+.fixed-top{
     position:-webkit-sticky;
     position:sticky;
     top:0;
     left:0;
     right:0;
-  }
+}
+/* ends here */
 
 .bg-info{
   background: black;
 
 }
 
-  .navbar a{
-    color: white;
-
-    
-  }
-
-
-.section_2, .section_3{
-  background: rgb(251, 252, 252);
+.bg-color{
+  background: rgb(46, 40, 40);
 }
 
+.bg_color{
+  background: rgb(206, 203, 203);
+}
 
-header{
-  
-  max-width: 100%;
-  
+.navbar a{
+    color: white;
+}
+
+h1{
+  background: rgb(251, 252, 252);
 }
