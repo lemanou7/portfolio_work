@@ -53,6 +53,8 @@ You can use any code editor of user choise, i use Vs Code because it is open sou
 
 5. Portfolio page
 
+![image-portfolio](./images/cap2.PNG)
+
 ![image-portfolio](./images/portfoliopage.JPG)
 
 5. Contact page 
